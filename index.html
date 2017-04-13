@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Store Me</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Store Me</h1>
+  <table id="tbl">
+    <tr>
+      <td>User Id:</td>
+      <td>
+          <input id="usrid" type="text"  class="tcell"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Name:</td>
+      <td>
+          <input id="name" type="text" class="tcell" />
+      </td>
+    </tr>
+    <tr>
+      <td>Address:</td>
+      <td>
+          <textarea id="addr" class="tcell"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>City:</td>
+      <td>
+          <input id="city" type="text" class="tcell"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td>
+          <input id="email" type="email" class="tcell" />
+      </td>
+    </tr>
+    <tr>
+      <td>Age:</td>
+      <td>
+          <input id="age" type="text" class="tcell"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Occupation:</td>
+      <td>
+          <input id="occup" type="text" class="tcell"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Mobile:</td>
+      <td>
+          <input id="mobile" type="tel" class="tcell"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+          <select id="gender" class="tcell">
+              <option>Male</option>
+              <option>Female</option>
+          </select>
+      </td>
+    </tr>
+  </table>
+  <div>
+    <input id="save" type="button" value="Save" />
+    <input id="clear" type="button" value="Clear" />
+    <input id="clear_storage" type="button" value="Clear Storage" />
+  </div>
+  <div id="display_container"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
